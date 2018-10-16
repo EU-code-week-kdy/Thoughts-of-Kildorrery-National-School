@@ -1,0 +1,119 @@
+
+body{
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+    border-left:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+li h3 {
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+
+
+/* this is for the statements(from childeren)*/
+
+
+
+
+.blue{
+      background-color: #cc00cc;
+}
+
+
+
+
+blockquote {
+  min-height: 5em;
+  display: inline-block;
+  max-width: 50%;
+  padding   : 1em 4em;
+  font      : 1.2em/150% sans-serif;
+  position  : relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px; 
+
+}
+
+blockquote::before,
+blockquote::after {
+  position: absolute;
+  height  : 3rem;
+  font    : 6rem/100% Georgia, "Times New Roman", Times, serif;
+}
+
+blockquote::before {
+  content: '“';
+  top    : 0.3rem;
+  left   : 0.9rem;
+}
+
+blockquote::after {
+  content: '”';
+  bottom : 0.3rem;
+  right  : 0.8rem;
+}
+
+blockquote:lang(fr)::before {
+  content: '«';
+  top    : -1.5rem;
+  left   : 0.5rem;
+}
+
+blockquote:lang(fr)::after {
+  content: '»';
+  bottom : 2.6rem;
+  right  : 0.5rem
+}
+
+blockquote i {
+  display   : block;
+  font-size : 6rem/100%;
+  margin-top: 1rem;
+  text-style: italic;
+  text-align: right;
+}
+
+/*this class is used to make the div position on the right */
+
+.position_right {
+    position: relative;
+    float: right;
+}
