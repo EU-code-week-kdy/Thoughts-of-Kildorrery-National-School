@@ -3,6 +3,11 @@ body{
     font-family: 'Roboto';
 }
 
+.home{
+  background-color: #42c5f4;
+  background: url(wormz.png) repeat 0 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -116,4 +121,9 @@ blockquote i {
 .position_right {
     position: relative;
     float: right;
+}
+
+h1{
+  font-family: 'Acme', sans-serif;
+  font-size: 500%;
 }
