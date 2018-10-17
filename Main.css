@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Mali');
+
 
 body{
     font-family: 'Roboto';
 }
 
+h3{
+  font-family: 'Mali', cursive;
+}
+
+
+
 .home{
-  background-color: #42c5f4;
+  
   background: url(wormz.png) repeat 0 0;
+}
+
+
+.schoolclasses{
+background: url(what-the-hex.png) repeat 0 0;
+
 }
 
  /* Add a black background color to the top navigation */
@@ -92,7 +106,7 @@ blockquote {
   display: inline-block;
   max-width: 50%;
   padding   : 1em 4em;
-  font      : 1.2em/150% sans-serif;
+  font: 1.2em/150%  'Mali', cursive;;
   position  : relative;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px; 
@@ -148,7 +162,6 @@ blockquote i {
 h1{
   font-family: 'Acme', sans-serif;
   font-size: 500%;
+  text-shadow: 1px 1px 1px #ccc;
 }
-
-.
 
